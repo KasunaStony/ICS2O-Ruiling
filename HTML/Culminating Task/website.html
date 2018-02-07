@@ -1,0 +1,249 @@
+<html>
+	<head>
+		<title>Websites</title>
+		<link rel="icon" href="http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/iMac-icon.png" type="image/x-icon"/>
+	<style type="text/css">
+			body{
+			font:"Cursive";
+			font-size:17px;
+			}
+			a:link,a:visited{
+			font-size:12px;
+			color:#666;
+			text-decoration:none;
+			}
+			a:hover{
+			color:#ff0000;
+			text-decoration:underline;
+			}
+			#Tab{
+			margin:0 auto;
+			border:2px solid #BCE2F3;
+			height:800px;
+			}
+			.Menubox{
+			height:60px;
+			border-bottom:1px solid #64B8E4;
+			background:#E4F2FB;
+			}
+			.Menubox ul{
+			list-style:none;
+			margin:10px 150px;
+			padding:0;position:absolute;
+			}
+			.Menubox ul li{
+			float:left;
+			background:#64B8E4;
+			line-height:35px;
+			display:block;
+			cursor:pointer;
+			width:200px;
+			text-align:center;
+			color:#fff;font-weight:bold;
+			border-top:1px solid #64B8E4;
+			border-left:1px solid #000000;
+			border-right:1px solid #000000;
+			}
+			.Menubox ul li.hover{
+			background:#fff;
+			border-bottom:1px solid #fff;
+			color:#147AB8;
+			}
+			.Contentbox{
+			clear:both;
+			margin-top:0px;
+			border-top:none;
+			height:150px;
+			padding-top:8px;
+			height:100%;
+			}
+			.Contentbox ul{
+			list-style:none;
+			margin:7px;
+			padding:0;
+			}
+			.Contentbox ul li{
+			margin:10px 150px;
+			line-height:40px;			
+			}
+			.Contentbox ol li{
+			margin:10px 150px;
+			line-height:40px;			
+			}
+ 		</style>
+ 		<style>
+			table{
+				margin-left:20%; 
+				margin-top:30px; 
+				font-family: arial, sans-serif;
+    			border-collapse: collapse;
+    			width: 100%;
+			}
+			td, th {
+    			
+    			text-align: left;
+    			padding: 8px;
+			}
+			
+		</style>
+		
+ 		<script>
+	
+			function setTab(name,cursel,n){
+				for(i=1;i<=n;i++){
+				var menu=document.getElementById(name+i);
+				var con=document.getElementById("con_"+name+"_"+i);
+				menu.className=i==cursel?"hover":"";
+				con.style.display=i==cursel?"block":"none";
+				}
+			}
+	
+ 		</script>
+ 		</head>
+	<style>
+		#header {
+   	 	background-color:black;
+    	color:white;
+    	text-align:center;
+    	padding:5px;
+		}
+		#l {
+    	line-height:30px;
+    	background-color:black;
+    	height:430px;
+    	width:1px;
+    	float:left;
+   	 	padding:5px;
+		}
+		#r {
+    	line-height:30px;
+    	background-color:black;
+    	height:430px;
+    	width:1px;
+    	float:right;
+   	 	padding:5px;
+		}
+		#nav {
+    	line-height:30px;
+    	background-color:#eeeeee;
+    	height:430px;
+    	width:300px;
+    	float:left;
+   	 	padding:5px;
+		}
+		#section {
+    	width:800px;
+    	float:left;
+   	 	padding:10px;	 	 
+		}
+		#footer {
+    	background-color:black;
+    	color:white;
+   	 	clear:both;
+    	text-align:center;
+   		padding:5px;	 	 
+		}
+		</style>
+		<style>a{color: black ;text-decoration:none;}</style>
+		<body background="http://buidln.clipdealer.com/003/157/003//previews/2--3157003-technology%20network%20loop%20background.jpg">
+			<div id="header">
+			<h1 align="center"><font face = "Impact" size = "30" color = "white" ><b><u>Favorite Websites</u></b></font></h1>
+		</div>
+		
+		<div id="Tab">
+  			<div class="Menubox">
+    			<ul>
+      				<li id="menu1" onmouseover="setTab('menu',1,2)" class="hover"><font face = "Cursive" size = "5">YouTube</font></li>
+      				<li id="menu2" onmouseover="setTab('menu',2,3)" ><font face = "Cursive" size = "5">Aria2 WebUI</font></li>
+      				<li id="menu3" onmouseover="setTab('menu',3,4)" ><font face = "Cursive" size = "5">Wikipedia</font></li>
+      				<li id="menu4" onmouseover="setTab('menu',4,5)" ><font face = "Cursive" size = "5">Github</font></li>
+      				<li id="menu5" onmouseover="setTab('menu',5,6)" ><font face = "Cursive" size = "5">Quora</font></li>
+   				</ul>
+  			</div>
+  			<div class="Contentbox"> 
+    			<div id="con_menu_1" class="hover">
+      				<table>
+      					<tr>
+      						<th><font size = "4">YouTube is an American video-sharing website.<br/> I found it's interesting because I can find, upload, <br/>sometimes even edit funny video on Youtube</font></th>
+      						<td><img src = "https://upload.wikimedia.org/wikipedia/commons/e/ef/YouTube_logo_2015.svg" width = "50%"></img></td>
+      					<tr>
+      				</table>
+      				<table>
+      					<tr>
+      						<th><img src = "https://upload.wikimedia.org/wikipedia/en/0/01/YouTube_Homepage_Dec_7_2012.png" width = "65%"/></th>
+      					</tr>
+      				</table>
+    			</div>
+    			<div id="con_menu_2" style="display:none">
+        				<table>
+      						<tr>
+      							<th><font size = "4">Aria2 is a lightweight multi-protocol & <br/>
+      							multi-source command-line download utility. <br/>
+      							Aria2 WebUI is a UI for the users to trace the <br/>
+      							process of the downloading.</font></th>
+      							<td><img src = "./1.png" ></img></td>
+      						<tr>
+      					</table>
+      					<table>
+      						<tr>
+      							<th><img src = "https://jlnostr.de/content/1-blog/20141215-aria2-raspberrypi/screenshot.png" width = "65%"/></th>
+      						</tr>
+      					</table>
+    			</div>
+     			<div id="con_menu_3" style="display:none">
+      				<table>
+      						<tr>
+      							<th><font size = "4">Wikipedia is a free online encyclopedia that allows its users to edit almost any article. It's a good website to search for professional opinions.
+								</font></th>
+      							<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/2000px-Wikipedia-logo-v2-en.svg.png" width = "25%"></img></td>
+      						<tr>
+      					</table>
+      					<table>
+      						<tr>
+      							<th><img src = "./jio.png" width = "65%"/></th>
+      						</tr>
+      					</table>
+    			</div>
+    			<div id="con_menu_4" style="display:none">
+      				<table>
+      						<tr>
+      							<th><font size = "4">GitHub is a web-based Git <br/>repository hosting service. <br/>I always use this website to <br/>find some code to learn.
+								</font></th>
+      							<td><img src = "http://www.aha.io/assets/integration_logos/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png" width = "50%" ></img></td>
+      						<tr>
+      					</table>
+      					<table>
+      						<tr>
+      							<th><img src = "https://18f.gsa.gov/assets/blog/github-tutorial/screenshot4.gif" width = "57%"/></th>
+      						</tr>
+      					</table>
+    			</div>
+   	 			<div id="con_menu_5" style="display:none">
+      				<table>
+      						<tr>
+      							<th><font size = "4">Quora is a question-and-answer site <br/>
+      							where questions are asked, answered, edited <br/>
+      							and organized by its community of users. <br/>
+      							You can ask anything you want on it.
+								</font></th>
+      							<td><img src = "https://pbs.twimg.com/profile_images/615648367943651328/51pM5n5v.png" width = "20%" ></img></td>
+      						<tr>
+      					</table>
+      					<table>
+      						<tr>
+      							<th><img src = "http://static.filehorse.com/screenshots-web/social-networks/quora-screenshot-03.jpg" width = "57%"/></th>
+      						</tr>
+      					</table>
+    			</div>
+  			</div>
+  		</div>
+  		<div id="footer">
+  								<a href = "./index.html">Index</a>
+  								<a href = "./schedule.html">Schedule</a>
+								
+								<a href = "./login.html">Login</a><br/>
+			Source: https://www.wikipedia.org/
+
+		</div>
+	</body>
+</html>

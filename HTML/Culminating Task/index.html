@@ -1,0 +1,192 @@
+<html>
+	<head>
+ 		<title>Index</title>
+ 		
+ 		<link rel="icon" href="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Home-icon.png"/>
+ 		<style type="text/css">
+			body{
+			font:"Cursive";
+			font-size:17px;
+			}
+			a:link,a:visited{
+			font-size:12px;
+			color:#666;
+			text-decoration:none;
+			}
+			a:hover{
+			color:#ff0000;
+			text-decoration:underline;
+			}
+			#Tab{
+			margin:0 auto;
+			border:2px solid #BCE2F3;
+			}
+			.Menubox{
+			height:60px;
+			border-bottom:1px solid #64B8E4;
+			background:#E4F2FB;
+			}
+			.Menubox ul{
+			list-style:none;
+			margin:10px 150px;
+			padding:0;position:absolute;
+			}
+			.Menubox ul li{
+			float:left;
+			background:#64B8E4;
+			line-height:35px;
+			display:block;
+			cursor:pointer;
+			width:200px;
+			text-align:center;
+			color:#fff;font-weight:bold;
+			border-top:1px solid #64B8E4;
+			border-left:1px solid #64B8E4;
+			border-right:1px solid #64B8E4;
+			}
+			.Menubox ul li.hover{
+			background:#fff;
+			border-bottom:1px solid #fff;
+			color:#147AB8;
+			}
+			.Contentbox{
+			clear:both;
+			margin-top:0px;
+			border-top:none;
+			height:181px;
+			padding-top:8px;
+			height:100%;
+			}
+			.Contentbox ul{
+			list-style:none;
+			margin:7px;
+			padding:0;
+			}
+			.Contentbox ul li{
+			margin:10px 150px;
+			line-height:40px;			
+			}
+			.Contentbox ol li{
+			margin:10px 150px;
+			line-height:40px;			
+			}
+ 		</style>
+ 		<style>
+			#header {
+   	 		background-color:#86A4C8;
+    		color:black;
+    		text-align:center;
+    		padding:3px;
+    		text-shadow:0 0 10px #00F;
+			}
+		</style>
+ 		<script>
+	
+			function setTab(name,cursel,n){
+				for(i=1;i<=n;i++){
+				var menu=document.getElementById(name+i);
+				var con=document.getElementById("con_"+name+"_"+i);
+				menu.className=i==cursel?"hover":"";
+				con.style.display=i==cursel?"block":"none";
+				}
+			}
+	
+ 		</script>
+ 		
+	</head>	
+	<body background ="./hiewq.gif">
+		<div id="header">
+			<h1 align="center"><font face = "Comic Sans MS" size = "30" color = "#D09F61" style = "text-shadow:0 0 20px #00F"><b><u>Who am I</u></b></font></h1>
+		</div>
+		
+		<div id="Tab">
+  			<div class="Menubox">
+    			<ul>
+      				<li id="menu1" onmouseover="setTab('menu',1,2)" class="hover"><font face = "Cursive" size = "5">Introduction</font></li>
+      				<li id="menu2" onmouseover="setTab('menu',2,3)" ><font face = "Cursive" size = "5">Hobbies</font></li>
+      				<li id="menu3" onmouseover="setTab('menu',3,4)" ><font face = "Cursive" size = "5">Reading List</font></li>
+      				<li id="menu4" onmouseover="setTab('menu',4,5)" ><font face = "Cursive" size = "5">Favourite movie</font></li>
+      				<li id="menu5" onmouseover="setTab('menu',5,6)" ><font face = "Cursive" size = "5">Favourite music</font></li>
+   				</ul>
+  			</div>
+  			<div class="Contentbox"> 
+    			<div id="con_menu_1" class="hover">
+      				<ul>
+        				<li><font face = "Fantasy" color = "white" size = "5" >
+        					My name is Ruiling, a 15 year-old Chinese girl. 
+        					I graduated from Bocai Middle school. 
+        					There are 3 people in my family. My father works in a nuclear
+        					company as an engineer. And my mother is an Office Administrator.<br/>
+        					I am the only child in my family. <br/>
+        					I have been to Canada for 1 year and I think I am now used to the life here. 
+        					I am still learning and improving my English.        						
+						</font></li>
+						<li>
+								<a href = "./schedule.html">Schedule</a>
+								<a href = "./website.html">Websites</a>
+								<a href = "./login.html">Login</a>
+						</li>
+      				</ul>
+    			</div>
+    			<div id="con_menu_2" style="display:none">
+      				<ul><font face = "Fantasy" color = "white" size = "5" >
+        				<li>Drawing</li>
+        				<li>Reading Novels</li>
+        				<li>Playing Violin</li>
+        				<li>Watching Movies</li>
+						<li>Listening to Music</li>
+						<li>
+								<a href = "./schedule.html">Schedule</a>
+								<a href = "./website.html">Websites</a>
+								<a href = "./login.html">Login</a>
+						</li>
+      				</font></ul>
+    			</div>
+     			<div id="con_menu_3" style="display:none">
+      				<ul><font face = "Fantasy" color = "white" size = "5" >
+        				<li>The Threebody Problem</li>
+        				<li>The Thief</li>
+        				<li>Romeo and Juliet</li>
+        				<li>
+								<a href = "./schedule.html">Schedule</a>
+								<a href = "./website.html">Websites</a>
+								<a href = "./login.html">Login</a>
+						</li>
+      				</font></ul>
+    			</div>
+    			<div id="con_menu_4" style="display:none">
+      				<ol><font face = "Fantasy" color = "white" size = "5" >
+      					<li>Sherlock Holmes</li>
+      					<li>Inception</li>
+      					<li>Zootopia</li>
+      					<li>The Hobbit</li>
+      				
+        			</font></ol>
+        			<ul>
+      					<li>
+								<a href = "./schedule.html">Schedule</a>
+								<a href = "./website.html">Websites</a>
+								<a href = "./login.html">Login</a>
+						</li>
+					</ul>
+    			</div>
+   	 			<div id="con_menu_5" style="display:none">
+      				<ol><font face = "Fantasy" color = "white" size = "5" >
+      					<li>Fade</li>
+      					<li>A Thousand Years</li>
+      					<li>Try Everything</li>
+      					<li>Party Shaker</li>
+      					
+        			</font></ol>
+        			<ul>
+      					<li>
+								<a href = "./schedule.html">Schedule</a>
+								<a href = "./website.html">Websites</a>
+								<a href = "./login.html">Login</a>
+						</li>
+					</ul>
+    			</div>
+  			</div>
+  		</div>
+	</body>
+</html>
